@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 Bandas</title>
+    <link rel="stylesheet" href="css/bandas.css">
+</head>
+<body>
+        
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="4Bandas.html">4 Bandas</a></li>
+        <li><a href="5Bandas.html">5 Bandas</a></li>
+    </ul>
+
+            <form class="">
+                <p>Ingrese el n&uacute;mero para ver su color:</p>
+                <input type="number" name="numColor1" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor1.value)" value="OK">
+                <!--Version de la profesora-->
+                <input type="number" name="numColor2" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor2.value)" value="OK">
+                <input type="number" name="numColor3" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor3.value)" value="OK">
+                <input type="number" name="numColor4" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor4.value)" value="OK">
+                <input type="number" name="numColor5" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor5.value)" value="OK">
+                <input type="number" name="numColor6" min="0" max="11" maxlength="10" value="0" class="iNumber">
+                <input type="button" onclick="Colores(numColor6.value)" value="OK">
+                <input type="button" value="Calcular" onclick="calcula()">
+            </form>
+
+
+    <script type="text/javascript" src="js/ColoresBandaOriginal.js"></script>
+
+</body>
+</html>

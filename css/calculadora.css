@@ -1,0 +1,53 @@
+.calculadora{
+    border: 2px blue solid;
+    width: 70%;
+    text-align: center;
+    background-color: aliceblue;
+}
+#resultado, #convb, #convo, #convh{
+    width: 80%;
+    border: 2px black solid;
+    text-align: right;
+    position: relative;
+    left: 8%;
+    padding: 5px 5px;
+    background-color: white;
+    font-family: "courier new";
+    overflow: hidden;
+}
+
+.calculadora [type=button]{
+    width: 15%;
+    padding: 0;
+}
+#conv{
+    width: 25%;
+}
+#fn, #shift, #divconversion{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li  a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li  a:hover{
+    background-color: #f1d517;
+}
+li  a:active { 
+    background-color: #609acf;
+    font-size: 120%;
+}
